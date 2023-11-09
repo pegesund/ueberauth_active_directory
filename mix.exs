@@ -7,7 +7,7 @@ defmodule UeberauthActiveDirectory.Mixfile do
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps]
+     deps: deps()]
   end
 
   # Configuration for the OTP application
@@ -27,8 +27,8 @@ defmodule UeberauthActiveDirectory.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:ueberauth, "~> 0.2"},
+    [{:ueberauth, "~> 0.10"},
      {:plug, "~> 1.0"},
-     {:exldap, "~> 0.1"}]
+     {:exldap, "~> 0.6.3"}]
   end
 end

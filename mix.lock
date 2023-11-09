@@ -1,4 +1,9 @@
-%{"exldap": {:hex, :exldap, "0.1.1", "f83c35e333f1049fa25b3a9bea31dad61964622fafdb962d7d4d90805a34064c", [:mix], []},
-  "plug": {:hex, :plug, "1.1.5", "de5645c18170415a72b18cc3d215c05321ddecac27a15acb923742156e98278b", [:mix], [{:cowboy, "~> 1.0", [hex: :cowboy, optional: true]}]},
+%{
+  "exldap": {:hex, :exldap, "0.6.3", "98e8c4ad5e1773b921ba0a5f27c96a6d814a7dff1581e5648eaf7c4f594729e7", [:mix], [], "hexpm", "412fafabe43cfde52d85957776f54edad9258d88b261dab76e0458a43c618a2c"},
+  "mime": {:hex, :mime, "2.0.5", "dc34c8efd439abe6ae0343edbb8556f4d63f178594894720607772a041b04b02", [:mix], [], "hexpm", "da0d64a365c45bc9935cc5c8a7fc5e49a0e0f9932a761c55d6c52b142780a05c"},
+  "plug": {:hex, :plug, "1.15.1", "b7efd81c1a1286f13efb3f769de343236bd8b7d23b4a9f40d3002fc39ad8f74c", [:mix], [{:mime, "~> 1.0 or ~> 2.0", [hex: :mime, repo: "hexpm", optional: false]}, {:plug_crypto, "~> 1.1.1 or ~> 1.2 or ~> 2.0", [hex: :plug_crypto, repo: "hexpm", optional: false]}, {:telemetry, "~> 0.4.3 or ~> 1.0", [hex: :telemetry, repo: "hexpm", optional: false]}], "hexpm", "459497bd94d041d98d948054ec6c0b76feacd28eec38b219ca04c0de13c79d30"},
+  "plug_crypto": {:hex, :plug_crypto, "2.0.0", "77515cc10af06645abbfb5e6ad7a3e9714f805ae118fa1a70205f80d2d70fe73", [:mix], [], "hexpm", "53695bae57cc4e54566d993eb01074e4d894b65a3766f1c43e2c61a1b0f45ea9"},
   "poison": {:hex, :poison, "2.1.0", "f583218ced822675e484648fa26c933d621373f01c6c76bd00005d7bd4b82e27", [:mix], []},
-  "ueberauth": {:hex, :ueberauth, "0.2.0", "9160c601b468c6692462a56be7ad8890d1a2d84519d7d9c4541da5b07d6495e1", [:mix], [{:plug, "~> 1.0", [hex: :plug, optional: false]}]}}
+  "telemetry": {:hex, :telemetry, "1.2.1", "68fdfe8d8f05a8428483a97d7aab2f268aaff24b49e0f599faa091f1d4e7f61c", [:rebar3], [], "hexpm", "dad9ce9d8effc621708f99eac538ef1cbe05d6a874dd741de2e689c47feafed5"},
+  "ueberauth": {:hex, :ueberauth, "0.10.5", "806adb703df87e55b5615cf365e809f84c20c68aa8c08ff8a416a5a6644c4b02", [:mix], [{:plug, "~> 1.5", [hex: :plug, repo: "hexpm", optional: false]}], "hexpm", "3efd1f31d490a125c7ed453b926f7c31d78b97b8a854c755f5c40064bf3ac9e1"},
+}
